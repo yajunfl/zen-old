@@ -1,0 +1,426 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  width: 100%;
+  height: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Headings */
+
+
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Sections */
+
+.colored-section {
+  background-color: #2F3D4F;
+  color: #fff;
+  padding-bottom: 10% !important;
+}
+
+.white-section {
+  background-color: #2F3D4F;
+  padding: 1%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-logo {
+  max-height: 3em;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  font-family: "Ubuntu";
+  color: #E15504 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  color: white !important;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#index {
+  background-color: #2F3D4F;
+  color: #fff;
+  text-align: left;
+  /* background-image: url("../images/index-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding-bottom: 100%; */
+}
+
+
+#index .container-fluid {
+  padding-left: 5em;
+  padding-right: 5em;
+
+
+}
+
+.top-index {
+  /* background-image: url("../images/top-index-bg.jpg"); */
+  /* background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding-bottom: 100%; */
+  /* background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center; */
+  /* background: url("../images/top-index-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+
+  background-image: url("../images/top-index-bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: cover;
+  margin-bottom: 0px;
+  padding-bottom: 40%;
+
+
+}
+
+
+/* ****************************************************************************** */
+.bottom-index {
+  /* background-image: url("../images/bottom-index-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-bottom: 100%; */
+  /* background-image: url("../images/top-index-bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: cover;
+  padding-bottom: 25%;
+  padding-top: 0;
+  margin-top: 0; */
+
+  /* background: url("../images/bottom-index-bg.png") no-repeat top left;
+  background-size: cover;
+  clear: both; */
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.bg-logo-img {
+  height: 8em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.1;
+}
+.index-big-text {
+  position: sticky;
+  margin-top: 90%;
+}
+
+
+
+.yellow-rectangle {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  height: 20vw;
+  width: 15vw;
+  border: 5px solid;
+  color: yellow;
+  margin-left: 20px;
+
+}
+
+.index-text {
+  color: white;
+  font-size:3vw;
+  font-weight: 900;
+  position: absolute;
+  left: 20px;
+  top: 280px;
+  margin-left: 20px;
+  padding-bottom: 0;
+}
+
+/* change viewwith windows size */
+@media (max-width: 1066px) {
+  .top-index {
+    padding-bottom: 30%;
+  }
+
+}
+@media (max-width: 650px) {
+  .top-index {
+    padding-bottom: 20%;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .top-index {
+    padding-bottom: 10%;
+  }
+
+}
+
+@media (max-width: 408px) {
+  .top-index {
+    padding-bottom: 1%;
+  }
+
+}
+
+
+@media (max-width: 800px) {
+  .yellow-rectangle {
+  left:200px;
+  top: 150px;
+
+
+  }
+
+  .index-text {
+    left: 200px;
+    top: 150px;
+
+  }
+}
+/* @media (max-width: 680px) {
+
+  .yellow-rectangle {
+
+    height: 10vw;
+    width: 7.5vw;
+    border: 1px solid;
+
+
+  }
+
+  .index-text {
+    color: white;
+    font-size:2vw;
+    font-weight: bold;
+  }
+} */
+
+@media (max-width: 655px) {
+  .top-index {
+
+    background-image: url("../images/top-index-bg-phone.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-bottom: 0px;
+    padding-bottom: 80%;
+
+
+  }
+
+  .yellow-rectangle {
+
+    height: 30vw;
+    width: 20vw;
+    border: 5px solid;
+    left: 30px;
+    top: 400px;
+
+
+
+  }
+
+  .index-text {
+    color: white;
+    font-size:4vw;
+    font-weight: bold;
+    top: 420px;
+    left: 10px;
+  }
+}
+/* .inex-text-rec {
+  display: flex;
+  justify-content: space-between;
+} */
+/* *******bottom index************ */
+
+.bottom-index-text {
+  font-family: "Montserrat-Black";
+  font-size:2rem;
+  line-height: 1.5;
+
+
+}
+
+.bottom-index-color-text {
+  color:#E15504;
+}
+
+.bottom-index {
+  position: relative;
+  padding-top: 12.5em;
+  padding-left: 7em;
+}
+
+.view-gallery-text-div{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: right;
+
+
+}
+.view-gallery-text{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #E15504;
+  padding-left: 0;
+}
+
+.bottom-index-img {
+  /* height: 993px; */
+  width: 400px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.bottom-index-img-div {
+  padding: 0 !important;
+}
+
+
+@media (max-width: 993px) {
+
+  .view-gallery-text-div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .bottom-index-img {
+    /* height: 993px; */
+    width: 320px !important;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .bottom-index {
+   text-align: center;
+  }
+
+  #first {
+    order: 2;
+  }
+
+  #second {
+    order: 1;
+  }
+
+ .bottom-index-text {
+   padding-top: 25px;
+   padding-bottom: 25px;
+ }
+
+}
+
+#contact-us {
+  background-color: #2F3D4F;
+  color: #fff;
+  text-align: left;
+  background-image: url("../images/contact-us-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-bottom: 100%;
+}
+
+#contact-us .container-fluid {
+  padding: 3% 10% 0%;
+}
+
+.contact-us {
+  color: white;
+}
+#about-us {
+  background-color: #2F3D4F;
+  color: #fff;
+  text-align: left;
+  background-image: url("../images/about-us-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-bottom: 100%;
+}
+
+#about-us .container-fluid {
+  padding: 3% 10% 0%;
+}
+
+
+
+.logo-text {
+  opacity: 0.1;
+  font-weight: 900;
+}
+
+
+
+
+/* Footer Section */
+
+.foot {
+    background-color: #2F3D4F;
+    padding-bottom: 2%;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+/* @media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+} */
