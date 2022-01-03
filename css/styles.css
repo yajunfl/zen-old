@@ -360,6 +360,12 @@ a:hover {
 
 }
 
+@media (max-width: 568px) {
+  .all-email {
+    font-size: 20px;
+  }
+}
+
 #contact-us {
   background-color: #2F3D4F;
   color: #fff;
