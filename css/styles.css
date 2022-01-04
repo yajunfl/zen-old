@@ -381,8 +381,17 @@ a:hover {
 @media (max-width: 673px) {
   .all-email {
     font-size: 20px;
+    text-align: center;
+  }
+
+  .phone-num {
+    font-size: 20px;
   }
   .bottom-index-text {
+    font-size: 20px;
+  }
+
+  .contact-us {
     font-size: 20px;
   }
 }
