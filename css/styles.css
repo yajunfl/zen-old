@@ -380,8 +380,8 @@ a:hover {
 
 @media (max-width: 673px) {
   .all-email {
-    font-size: 20px;
-    text-align: center;
+    font-size: 16px;
+    text-align: center !important;
   }
 
   .phone-num {
