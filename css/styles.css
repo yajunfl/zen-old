@@ -266,8 +266,10 @@ a:hover {
     height: 30vw;
     width: 20vw;
     border: 5px solid;
-    /* left: 150px;
-    top: 200px; */
+
+    top: 350px;
+    left:100px;
+
     margin: auto;
 
 
@@ -279,8 +281,8 @@ a:hover {
     color: white;
     font-size:4vw;
     font-weight: bold;
-    top: 200px;
-    left: 100px;
+    top: 400px;
+    left: 10px;
   }
 }
 /* .inex-text-rec {
