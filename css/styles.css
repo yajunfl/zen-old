@@ -267,7 +267,7 @@ a:hover {
     width: 20vw;
     border: 5px solid;
 
-    top: 350px;
+    top: 250px;
     left:100px;
 
     margin: auto;
@@ -281,7 +281,7 @@ a:hover {
     color: white;
     font-size:4vw;
     font-weight: bold;
-    top: 400px;
+    top: 300px;
     left: 10px;
   }
 }
