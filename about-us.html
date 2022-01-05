@@ -3,7 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>About-Us</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <title>Zen Interiors</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
@@ -25,11 +31,45 @@
 
   <section class="colored-section" id="about-us">
 
-    <div class="container-fluid">
+    <div class="container-fluid about-us-div">
 
       <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-xl navbar-dark" style="padding-bottom: 0px;">
 
-      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img class="navbar-logo" src="images/watermark_logo.png" alt="logo-img">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars" style="color:#F71900; font-size:28px;"></i>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-link" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav align-items-end ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">中文版</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light">
 
         <a class="navbar-brand" href=""></a>
 
@@ -58,20 +98,40 @@
           </ul>
 
         </div>
-      </nav>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </nav> -->
 
-            <br><br>
-            <p>At Zen Interiors, our design services are</p>
-            <p>completely tailored to you. We are here to</p>
-            <p>to help from start to finish, transforming</p>
-            <p>your house into dream home!</p>
-            <br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br>
+    <p class="about-us-text">About Us</p>
+    <div class="row about-us-row1">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6  first-text-div">
+        <p class="first-text">At Zen Interiors, our design services are
+          completely tailored to you. We are here to
+          to help from start to finish, transforming
+          your house into dream home!</p>
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6  first-img-div">
+        <img class="about-us-1" src="images/about-us-1.png" alt="about us image">
+      </div>
 
-            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;No matter how big or small your project,</p>
-            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;the first consolation is free and out design</p>
-            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;fee is refundable against a minimum spend.</p>
+    </div>
+
+    <div class="row about-us-row2">
+      <div id="about-first-div" class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 second-img-div">
+        <img class="about-us-2" src="images/about-us-2.png" alt="about us image">
+      </div>
+      <div id="about-second-div" class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 second-text-div">
+        <p class="second-text">No matter how big or small your project,
+          the first consolation is free and out design
+          fee is refundable against a minimum spend.</p>
+      </div>
+
+    </div>
+
+    <p class="about-contact-us">
+      Contact Us
+    </p>
+    <p class="about-phone-num">phone: 409.496.5981</p>
+    <p class="about-all-email">Email: zeninterior88@gmail.com</p>
+
 
 
     </div>

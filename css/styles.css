@@ -416,28 +416,139 @@ a:hover {
   color: white;
 }
 #about-us {
-  background-color: #2F3D4F;
+
   color: #fff;
   text-align: left;
-  background-image: url("../images/about-us-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  padding-bottom: 100%;
+  background-color: #2F3D4F;
+  color: #fff;
+  padding-bottom: 2% !important;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
-#about-us .container-fluid {
+/* #about-us .container-fluid {
   padding: 3% 10% 0%;
+} */
+
+.about-us-text {
+  color: white;
+  width: 50%;
+  font-size: 3em;
+  padding-top: 100px;
+
 }
 
+.first-text {
+  padding-top: 110px;
+  color: white;
+  width: 75%;
+  font-size: 1.8em;
+  max-width: 100%
+  margin-bottom: 0;
 
+}
+
+.about-us-1 {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+}
+
+.second-text {
+  padding-top: 110px;
+  color: white;
+  width: 100%;
+  font-size: 1.8em;
+  max-width: 100%
+
+}
+
+.about-us-2 {
+  width: 100%;
+  display: block;
+  margin-right: auto;
+}
 
 .logo-text {
   opacity: 0.1;
   font-weight: 900;
 }
 
+.about-us-row2 {
+  padding-top: 170px;
+  padding-bottom: 90px;
+}
+
+.about-contact-us {
+  font-size: 1.2em;
+  color: white;
+}
+
+.about-phone-num {
+  font-size: 1.2em;
+}
+
+.about-all-email {
+  font-size: 1.2em;
+}
 
 
+@media (max-width: 1350px) {
+  /* .about-us-1 {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    padding-top: 50px;
+  }
+  .about-us-2 {
+    width: 80%;
+    display: block;
+    margin-right: auto;
+  }
+
+  .first-text {
+    padding-top: 110px;
+    color: white;
+    width: 75%;
+    font-size: 1.4em;
+    max-width: 100%;
+    margin-bottom: 0;
+    left:100px;
+
+
+  }
+
+  .first-text-div {
+    width: 50%;
+
+  } */
+
+}
+
+@media (max-width: 766px) {
+  .about-us-row1 {
+    height: 70%;
+  }
+  .first-text {
+    padding-top: 50px;
+    height: 50%;
+  }
+  .first-img-div {
+    padding-top: 75px;
+  }
+  .about-us-row2 {
+    padding-top: 0;
+  }
+  #about-first-div {
+    order: 2;
+  }
+
+  #about-second-div {
+    order: 1;
+  }
+
+
+}
 
 /* Footer Section */
 
