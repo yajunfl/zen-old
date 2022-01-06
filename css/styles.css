@@ -631,7 +631,9 @@ a:hover {
   display: block;
   margin: auto;
  }
-
+ .contact-us-row {
+   padding-left: 0;
+ }
  #contact-us-first {
    order: 2;
  }
@@ -641,7 +643,11 @@ a:hover {
    padding-bottom: 5%;
  }
 
-
+.contact-us-row {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+}
 }
 /* @media (max-width: 1028px) {
 
