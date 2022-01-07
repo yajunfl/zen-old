@@ -1,4 +1,3 @@
-
 body {
   font-family: "Montserrat";
   text-align: center;
@@ -17,18 +16,12 @@ p {
 }
 
 /* Headings */
-
-
-
-
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-
 /* Sections */
-
 .colored-section {
   background-color: #2F3D4F;
   color: #fff;
@@ -41,7 +34,6 @@ p {
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -69,18 +61,17 @@ p {
 a {
   text-decoration: none !important;
 }
+
 a:hover {
   color: white !important;
 }
 
 /* Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Section */
-
 #index {
   background-color: #2F3D4F;
   color: #fff;
@@ -91,12 +82,9 @@ a:hover {
   padding-bottom: 100%; */
 }
 
-
 #index .container-fluid {
   padding-left: 5em;
   padding-right: 5em;
-
-
 }
 
 .top-index {
@@ -112,17 +100,13 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; */
-
   background-image: url("../images/top-index-bg.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: cover;
   margin-bottom: 0px;
   padding-bottom: 44%;
-
-
 }
-
 
 /* ****************************************************************************** */
 .bottom-index {
@@ -137,13 +121,11 @@ a:hover {
   padding-bottom: 25%;
   padding-top: 0;
   margin-top: 0; */
-
   /* background: url("../images/bottom-index-bg.png") no-repeat top left;
   background-size: cover;
   clear: both; */
   padding: 0px;
   margin: 0px;
-
 }
 
 .bg-logo-img {
@@ -153,12 +135,11 @@ a:hover {
   margin-right: auto;
   opacity: 0.1;
 }
+
 .index-big-text {
   position: sticky;
   margin-top: 90%;
 }
-
-
 
 .yellow-rectangle {
   position: absolute;
@@ -169,12 +150,11 @@ a:hover {
   border: 5px solid;
   color: yellow;
   margin-left: 20px;
-
 }
 
 .index-text {
   color: white;
-  font-size:3vw;
+  font-size: 3vw;
   font-weight: 900;
   position: absolute;
   left: 20px;
@@ -188,8 +168,8 @@ a:hover {
   .top-index {
     padding-bottom: 30%;
   }
-
 }
+
 @media (max-width: 650px) {
   .top-index {
     padding-bottom: 20%;
@@ -198,38 +178,32 @@ a:hover {
   .navbar-logo {
     max-height: 2em;
   }
-
 }
 
 @media (max-width: 650px) {
   .top-index {
     padding-bottom: 10%;
   }
-
-}
+ }
 
 @media (max-width: 408px) {
   .top-index {
     padding-bottom: 1%;
   }
-
-}
-
+ }
 
 @media (max-width: 800px) {
   .yellow-rectangle {
-  left:200px;
-  top: 150px;
-
-
+    left: 200px;
+    top: 150px;
   }
 
   .index-text {
     left: 200px;
     top: 150px;
-
   }
-}
+ }
+
 /* @media (max-width: 680px) {
 
   .yellow-rectangle {
@@ -247,60 +221,47 @@ a:hover {
     font-weight: bold;
   }
 } */
-
 @media (max-width: 655px) {
   .top-index {
-
     background-image: url("../images/top-index-bg-phone.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: cover;
     margin-bottom: 0px;
     padding-bottom: 80%;
-
-
   }
 
   .yellow-rectangle {
-
     height: 30vw;
     width: 20vw;
     border: 5px solid;
-
     top: 250px;
-    left:100px;
-
+    left: 100px;
     margin: auto;
-
-
-
-
   }
 
   .index-text {
     color: white;
-    font-size:4vw;
+    font-size: 4vw;
     font-weight: bold;
     top: 300px;
     left: 10px;
   }
 }
+
 /* .inex-text-rec {
   display: flex;
   justify-content: space-between;
 } */
 /* *******bottom index************ */
-
 .bottom-index-text {
   font-family: "Montserrat-Black";
-  font-size:2rem;
+  font-size: 2rem;
   line-height: 1.5;
-
-
 }
 
 .bottom-index-color-text {
-  color:#E15504;
+  color: #E15504;
 }
 
 .bottom-index {
@@ -310,14 +271,13 @@ a:hover {
   padding-right: 100px;
 }
 
-.view-gallery-text-div{
+.view-gallery-text-div {
   padding-top: 150px;
   padding-bottom: 150px;
   text-align: right;
-
-
 }
-.view-gallery-text{
+
+.view-gallery-text {
   font-size: 1.5rem;
   line-height: 1.5;
   color: #E15504;
@@ -330,14 +290,13 @@ a:hover {
   max-width: 100%;
   max-height: 100%;
 }
+
 .bottom-index-img-div {
   padding: 0 !important;
 }
 
-
 @media (max-width: 993px) {
-
-  .view-gallery-text-div{
+  .view-gallery-text-div {
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
@@ -355,7 +314,7 @@ a:hover {
   }
 
   .bottom-index {
-   text-align: center;
+    text-align: center;
   }
 
   #first {
@@ -366,12 +325,11 @@ a:hover {
     order: 1;
   }
 
- .bottom-index-text {
-   padding-top: 25px;
-   padding-bottom: 25px;
+  .bottom-index-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
  }
-
-}
 
 /* @media (max-width: 1205px) {
   .navbar-collapse
@@ -379,7 +337,6 @@ a:hover {
         background-color:#FA0;
     }
 } */
-
 @media (max-width: 673px) {
   .all-email {
     font-size: 16px;
@@ -389,6 +346,7 @@ a:hover {
   .phone-num {
     font-size: 20px;
   }
+
   .bottom-index-text {
     font-size: 20px;
   }
@@ -398,12 +356,11 @@ a:hover {
   }
 }
 
-
 .contact-us {
   color: white;
 }
-#about-us {
 
+#about-us {
   color: #fff;
   text-align: left;
   background-color: #2F3D4F;
@@ -416,14 +373,12 @@ a:hover {
 /* #about-us .container-fluid {
   padding: 3% 10% 0%;
 } */
-
 .about-us-text {
   color: white;
   width: 50%;
   font-size: 3em;
   padding-top: 3em;
   padding-bottom: 3em;
-
 }
 
 .first-text {
@@ -433,7 +388,6 @@ a:hover {
   font-size: 1.5em;
   max-width: 100%;
   margin-bottom: 0;
-
 }
 
 .about-us-1 {
@@ -448,7 +402,6 @@ a:hover {
   width: 100%;
   font-size: 1.5em;
   max-width: 100%
-
 }
 
 .about-us-2 {
@@ -480,9 +433,8 @@ a:hover {
   font-size: 1.2em;
 }
 
-
 @media (max-width: 1300px) {
-  #about-us .nav-link{
+  #about-us .nav-link {
     font-size: 120%;
   }
 
@@ -492,8 +444,8 @@ a:hover {
     font-size: 2em;
     padding-top: 3em;
     padding-bottom: 3em;
-
   }
+
   /* .about-us-1 {
     width: 75%;
     display: block;
@@ -522,23 +474,26 @@ a:hover {
     width: 50%;
 
   } */
-
 }
 
 @media (max-width: 766px) {
   .about-us-row1 {
     height: 70%;
   }
+
   .first-text {
     padding-top: 50px;
     height: 50%;
   }
+
   .first-img-div {
     padding-top: 75px;
   }
+
   .about-us-row2 {
     padding-top: 0;
   }
+
   #about-first-div {
     order: 2;
   }
@@ -546,16 +501,14 @@ a:hover {
   #about-second-div {
     order: 1;
   }
-
-
 }
 
 /* Footer Section */
-
 .foot {
-    background-color: #2F3D4F;
-    padding-bottom: 2%;
+  background-color: #2F3D4F;
+  padding-bottom: 10%;
 }
+
 .social-icon {
   margin: 20px 10px;
 }
@@ -564,10 +517,7 @@ a:hover {
   font-size: 1em;
 }
 
-
 /* contact us  */
-
-
 #contact-us {
   color: #fff;
   text-align: left;
@@ -579,13 +529,16 @@ a:hover {
 }
 
 #contact-us .container-fluid {
-  padding: 0;
+  padding-bottom: 2%;
 }
 
-@media (max-width: 1300px) {
-  #contact-us .nav-link{
-    font-size: 120%;
-  }
+.contact-us-body {
+  padding-bottom: 0;
+}
+
+#contact-us .nav-link {
+  font-size: 120%;
+}
 
 .contact-us-text {
   color: white;
@@ -610,14 +563,13 @@ a:hover {
   text-align: center;
 }
 
-.contact-us-email{
+.contact-us-email {
   font-size: 1.5em;
   text-align: center;
 }
 
 .contact-us-img {
   width: 70%;
-
 }
 
 .contact-us-row {
@@ -626,30 +578,141 @@ a:hover {
   padding-left: 5%;
 }
 
-@media (max-width: 600px){
+@media (max-width: 1300px) {
+  #contact-us .nav-link {
+    font-size: 120%;
+  }
+
+  .contact-us-text {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .call-us-text {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .contact-us-phone-num {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .email-us-text {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .contact-us-email {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
   .contact-us-img {
-  display: block;
-  margin: auto;
- }
- .contact-us-row {
-   padding-left: 0;
- }
- #contact-us-first {
-   order: 2;
- }
+    width: 70%;
+  }
 
- #contact-us-second {
-   order: 1;
-   padding-bottom: 5%;
- }
+  .contact-us-row {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+  }
 
-.contact-us-row {
-  padding-top: 10%;
-  padding-bottom: 10%;
-  padding-left: 5%;
+  @media (max-width: 600px) {
+    .contact-us-img {
+      display: block;
+      margin: auto;
+    }
+
+    .contact-us-row {
+      padding-left: 0;
+    }
+
+    #contact-us-first {
+      order: 2;
+    }
+
+    #contact-us-second {
+      order: 1;
+      padding-bottom: 5%;
+    }
+
+    .contact-us-row {
+      padding-top: 10%;
+      padding-bottom: 10%;
+      padding-left: 5%;
+    }
+
+    .contact-us-text {
+      color: white;
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+    .call-us-text {
+      color: white;
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    .contact-us-phone-num {
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    .email-us-text {
+      color: white;
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    .contact-us-email {
+      font-size: 1.2em;
+      text-align: center;
+    }
+  }
+
+  .contact-us-footer {
+    padding-bottom: 30%;
+  }
+
+  /* *************view-gallary************ */
+
+.first-line-gallery {
+    text-align: left;
+    font-size: 3em;
+  }
+
+.view-more-link {
+    text-align: center;
+    display: block;
+    color: #E15504;
+  }
+
+.benefits-text {
+    text-align: center;
+    color: #E15504;
+
+  }
+
+
+.carousel {
+    width: 70%;
+  }
+
+@media (min-width: 600px) {
+  .carousel {
+    display: none;
+  }
+
 }
-}
-/* @media (max-width: 1028px) {
+
+
+  /* @media (max-width: 1028px) {
 
   #title {
     text-align: center;
