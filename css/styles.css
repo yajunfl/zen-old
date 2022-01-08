@@ -184,13 +184,13 @@ a:hover {
   .top-index {
     padding-bottom: 10%;
   }
- }
+}
 
 @media (max-width: 408px) {
   .top-index {
     padding-bottom: 1%;
   }
- }
+}
 
 @media (max-width: 800px) {
   .yellow-rectangle {
@@ -202,7 +202,7 @@ a:hover {
     left: 200px;
     top: 150px;
   }
- }
+}
 
 /* @media (max-width: 680px) {
 
@@ -329,7 +329,7 @@ a:hover {
     padding-top: 25px;
     padding-bottom: 25px;
   }
- }
+}
 
 /* @media (max-width: 1205px) {
   .navbar-collapse
@@ -681,36 +681,38 @@ a:hover {
   }
 
   /* *************view-gallary************ */
-
-.first-line-gallery {
+  .first-line-gallery {
     text-align: left;
     font-size: 3em;
   }
 
-.view-more-link {
+  .view-more-link {
     text-align: center;
     display: block;
     color: #E15504;
   }
 
-.benefits-text {
+  .benefits-text {
     text-align: center;
     color: #E15504;
-
   }
 
-
-.carousel {
-    width: 70%;
-  }
-
-@media (min-width: 600px) {
-  .carousel {
-    display: none;
-  }
-
+.carousel{
+  display: none;
 }
 
+@media (max-width: 600px) {
+    .carousel {
+      display: block !important;
+      width: 94%;
+      margin: auto;
+    }
+
+    #view-gallary {
+      text-align: center !important;
+      margin: auto !important;
+    }
+  }
 
   /* @media (max-width: 1028px) {
 
