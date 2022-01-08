@@ -581,7 +581,7 @@ a:hover {
 @media (max-width: 1300px) {
   #contact-us .nav-link {
     font-size: 120%;
-  }
+}
 
   .contact-us-text {
     color: white;
@@ -620,9 +620,11 @@ a:hover {
     padding-bottom: 10%;
     padding-left: 5%;
   }
+}
 
-  @media (max-width: 600px) {
-    .contact-us-img {
+@media (max-width: 600px) {
+
+  .contact-us-img {
       display: block;
       margin: auto;
     }
@@ -712,6 +714,8 @@ a:hover {
       text-align: center !important;
       margin: auto !important;
     }
+
+
   }
 
   /* @media (max-width: 1028px) {
